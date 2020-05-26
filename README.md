@@ -6,14 +6,14 @@
 composer require ricardl/levent-bundle
 ```
 
-Register the bundle:
+Register the bundle in config/bundles.php:
 
 ```php
-$bundles = array(
+return [array(]
     ...
-    new Ricardl\LeventBundle\LeventBundle(),
+    Ricardl\LeventBundle\LeventBundle::class => ['all' => true],
     ...
-);
+];
 ```
 
 ## Usage
