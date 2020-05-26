@@ -15,5 +15,4 @@ class LeventBundle extends Bundle
     {
         $container->addCompilerPass(new RegisterEmittersPass());
     }
-
 }
