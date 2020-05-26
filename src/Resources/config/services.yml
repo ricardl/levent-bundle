@@ -1,0 +1,7 @@
+---
+services:
+    league_event.emitter:
+        class: League\Event\Emitter
+        tags:
+            - name: league_event.emitter
+              listener_tag: league_event.listener
